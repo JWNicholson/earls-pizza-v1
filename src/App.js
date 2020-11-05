@@ -1,16 +1,16 @@
 import React from 'react';
-import Navbar from './components/Navbar';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Hero from './components/Hero';
 import { GlobalStyle } from './globalStyles';
-import Hero from './components/Navbar/Hero/HeroStyles';
+
 
 
 function App() {
   return (
     <Router>
       <GlobalStyle />
-      <Navbar />
-      <Hero />
+     
+     <Hero />
     </Router>
   );
 }
