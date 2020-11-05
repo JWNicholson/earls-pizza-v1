@@ -1,11 +1,15 @@
 import React from 'react';
-import { Nav } from './NavbarStyles';
+import { Nav, NavLink, NavIcon,Bars } from './NavbarStyles';
 
 const Navbar = () => {
     return (
       <>
         <Nav>
-            Nav
+            <NavLink to='/'>Earle's Pizza</NavLink>
+            <NavIcon>
+              <p>Menu</p>
+              <Bars />
+            </NavIcon>
         </Nav>
       </>
     )
