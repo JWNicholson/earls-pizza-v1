@@ -8,12 +8,13 @@ export const HeroContainer = styled.div`
     background-position:center;
     background-size:cover;
     height:100vh;
+   
 `;
 
 export const HeroContent = styled.div`
     height calc(100vh -80px);
     max-height: 100%;
-    width:100vw;
+    margin:1rem;
     padding: 0rem calc((100vw - 1300px)/2);
 `;
 
@@ -30,9 +31,11 @@ export const HeroItems = styled.div`
     text-transform: uppercase;
     line-height: 1;
     font-weight:bold;
+    margin:auto;
 
     @media screen and (max-width: 650px){
         width: 100%;
+       
     }
 `;
 
