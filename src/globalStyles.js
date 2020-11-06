@@ -7,4 +7,8 @@ export const GlobalStyle = createGlobalStyle`
         padding:0;
         font-family: 'Itim', cursive;
     }
+
+    body{
+        background-color:#141414;
+    }
 `;
