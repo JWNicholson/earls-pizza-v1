@@ -8,8 +8,8 @@ const Sidebar = ({isOpen, toggle}) => {
           <CloseIcon />
             <SidebarMenu>
                 <SidebarLink to="/">Pizza</SidebarLink>
-                <SidebarLink to="/">Sides</SidebarLink>
-                <SidebarLink to="/">Full Menu</SidebarLink>
+                <SidebarLink to="/">Sandwiches</SidebarLink>
+                <SidebarLink to="/">Beverages</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
                 <SidebarRoute to="/">Place Order</SidebarRoute>
