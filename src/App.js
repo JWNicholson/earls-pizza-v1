@@ -13,7 +13,6 @@ function App() {
       <GlobalStyle />
      <Hero />
      <Products heading="Make a choice" data={productData} />
-
      <Products heading="Have a sandwich instead." data={productData2} />
     </Router>
   );
