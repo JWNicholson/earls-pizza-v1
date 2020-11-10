@@ -16,10 +16,12 @@ export const ProductWrapper = styled.div`
 `;
 
 export const ProductCard = styled.div`
+display:flex;
+flex-direction:column;
   margin: 0 2rem;
   line-height: 2;
   width: 300px;
-  height:100%
+  min-height:700px;
 `;
 
 export const ProductImg = styled.img`

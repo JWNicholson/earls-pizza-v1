@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Feature from './components/Feature';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import { productData,productData2 } from './components/Products/data';
@@ -12,6 +13,7 @@ function App() {
     <Router>
       <GlobalStyle />
      <Hero />
+     <Feature />
      <Products heading="Make a choice" data={productData} />
      <Products heading="Have a sandwich instead." data={productData2} />
     </Router>

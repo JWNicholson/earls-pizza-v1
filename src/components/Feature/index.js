@@ -7,6 +7,7 @@ const Feature = () => {
           <h1>Today's Special</h1>
           <p>The Cryin Hawaiin Pizza</p>
           <p>Pineapples,Wild Hog Sausage, and lots of Onions</p>
+        <FeatureButton >Order Now</FeatureButton>
       </FeatureContainer>
     )
 }
